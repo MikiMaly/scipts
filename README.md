@@ -1,6 +1,10 @@
 tohle je prvni repo pro v6.4 grabber script 
 
+features
+stahovani videi z webu podle odkazu nebo seznamu odkazu v csv v nejvetsi kvalite s audiem a ulozeni do slozky
+
 EXAMPLE
+
 
 |------------------------------------------------------------------------------------------------------------|
 | Video Grabber (paste URL + Enter). Ctrl+C to quit.                                                         |
@@ -13,9 +17,8 @@ EXAMPLE
 |------------------------------------------------------------------------------------------------------------|
 | ID   JOB_ID                TOTAL STATUS/PROGRESS                                                           |
 |------------------------------------------------------------------------------------------------------------|
-| 0003 20260309_111020_0         ? [FAIL] ERROR: [generic] 'fd' is not a valid URL                           |
-| 0002 20260309_111018_0         ? [FAIL] ERROR: [generic] 'df' is not a valid URL                           |
-| 0001 20260309_111008_0         ? [FAIL] ERROR: [generic] '&' is not a valid URL                            |
+|                                                                                                            |        
+|                                                                                                            |
 |------------------------------------------------------------------------------------------------------------|
 | Paste URL here and press Enter:                                                                            |
 |------------------------------------------------------------------------------------------------------------|
