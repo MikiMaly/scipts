@@ -1,0 +1,14 @@
+download_dir: "D:/video_grabber/Videos"
+max_workers: 10
+timeout_sec: 60
+
+# best quality: best video + best audio (fallback to best single)
+format: "bv*+ba/b"
+
+retries: 20
+concurrent_fragments: 4
+
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123 Safari/537.36"
+
+# pokud ffmpeg neni v PATH, dej sem cestu k ffmpeg.exe, jinak nech prazdne
+ffmpeg_path: ""

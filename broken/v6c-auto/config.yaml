@@ -1,0 +1,27 @@
+download_dir: "F:/1/1"
+
+# tvrdý maximum threadu (kolik worker threadu existuje)
+max_workers: 10
+
+# realny limit soubezne bezicich downloadu (meni auto-tune)
+workers_target: 10
+
+timeout_sec: 60
+
+format: "bv*+ba/b"
+retries: 20
+fragment_retries: 30
+concurrent_fragments: 4
+
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123 Safari/537.36"
+ffmpeg_path: ""
+
+# --- v6c-auto-txt ---
+queue_limit: 30
+
+# probe zacatku videa
+auto_tune: true
+probe_target_mb: 25
+probe_first_seconds: 10
+probe_max_seconds: 60
+probe_cache_minutes: 30

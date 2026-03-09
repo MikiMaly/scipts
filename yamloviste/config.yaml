@@ -1,0 +1,11 @@
+download_dir: "E:/grabber"
+max_workers: 2
+timeout_sec: 60
+
+format: "bv*+ba/b"
+retries: 20
+fragment_retries: 30 
+concurrent_fragments: 8
+
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123 Safari/537.36"
+ffmpeg_path: ""
